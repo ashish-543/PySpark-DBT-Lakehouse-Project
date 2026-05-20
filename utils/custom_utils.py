@@ -1,12 +1,17 @@
 from typing import List
 from pyspark.sql import DataFrame
 from pyspark.sql.window import Window
-from pyspark.sql.types import *
-from pyspark.sql.functions import *
+from pyspark.sql.types import StringType
+from pyspark.sql.functions import (
+    col,
+    trim,
+    row_number,
+    current_timestamp
+)
 from delta.tables import DeltaTable
 
 
-class transformations:
+class Transformations:
 
     def dedup(self, df: DataFrame, dedup_cols: List[str], cdc: str) -> DataFrame:
         """

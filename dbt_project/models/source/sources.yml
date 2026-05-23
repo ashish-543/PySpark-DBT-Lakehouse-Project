@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: silver # Mention the name of the source schema
+    catalog: lakehouse
+    schema: silver
+    tables:
+      - name: crm_customers 
+      - name: crm_products
+      - name: crm_sales
+      - name: erp_customers
+      - name: erp_customer_location
+      - name: erp_product_category

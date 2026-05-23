@@ -1,0 +1,20 @@
+version: 2
+
+snapshots:
+  - name: customer_snapshot
+    relation: ref("dim_customers")
+    config:
+      schema: snapshots
+      database: lakehouse
+      strategy: timestamp
+      unique_key: customer_id
+      updated_at: create_date::timestamp
+
+  - name: product_snapshot
+    relation: ref("dim_products")
+    config:
+      schema: snapshots
+      database: lakehouse
+      strategy: timestamp
+      unique_key: product_id
+      updated_at: start_date::timestamp

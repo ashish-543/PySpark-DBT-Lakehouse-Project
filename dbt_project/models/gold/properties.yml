@@ -1,0 +1,34 @@
+version: 2
+
+models:
+  - name: dim_customers
+    columns:
+      - name: customer_id
+        data_tests:
+          - unique
+          - not_null
+      - name: customer_number
+        data_tests:
+          - unique
+          - not_null
+      - name: gender
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["Male", "Female", "n/a"]
+              config:
+                severity: warn
+
+
+  - name: dim_products
+    columns:
+      - name: product_id
+        data_tests:
+          - unique
+          - not_null
+
+  - name: fact_sales
+    columns:
+      - name: order_number
+        data_tests:
+          - not_null

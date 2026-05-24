@@ -137,8 +137,9 @@ The entire pipeline is orchestrated using Databricks Lakeflow Jobs.
 - Snapshot Generation
 
 ## Pipeline DAG
-<img width="1575" height="729" alt="pipeline" src="https://github.com/user-attachments/assets/abe7a1d8-059d-4f7f-98bc-444415f45bf8" />
+<img width="1738" height="716" alt="pipeline" src="https://github.com/user-attachments/assets/26fbc9ed-6020-4b95-87c6-7aea817aa321" />
 
+---
 
 ## Infrastructure Initialization
 

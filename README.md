@@ -31,32 +31,25 @@ The pipeline is fully orchestrated using Databricks Lakeflow Jobs and includes:
 
 ## Data Architecture Diagram
 
+<img width="1100" height="850" alt="data architecture" src="https://github.com/user-attachments/assets/ca666569-bbb4-4476-8a9f-056483dae42e" />
 
-```md
-<img width="1100" height="850" alt="data architecture" src="https://github.com/user-attachments/assets/3646c921-13b3-4e86-8027-0bcadd1bd5b2" />
-![Data Architecture](./diagrams/data_architecture.png)
-```
+---
 
 ## Data Lineage Diagram
 
+<img width="1174" height="720" alt="data lineage" src="https://github.com/user-attachments/assets/10b792e3-5247-4df4-8a60-33ad810db6f5" />
 
-```md
-<img width="1164" height="700" alt="data lineage" src="https://github.com/user-attachments/assets/5999054a-2c6f-47bd-bbbd-9591a80790ad" />
-```
+---
 
 ## Data Integration Diagram
 
+<img width="1225" height="825" alt="relationship" src="https://github.com/user-attachments/assets/4cc656b5-5e15-4f1a-af90-f34363b2f987" />
 
-```md
-<img width="1207" height="759" alt="relationship" src="https://github.com/user-attachments/assets/bb8479e3-c86b-43cf-87ce-68d34a84fb83" />
-```
+---
 
 ## Data Model: Star Schema
 
-
-```md
-<img width="1100" height="580" alt="data model" src="https://github.com/user-attachments/assets/2bfd03d5-3058-403b-8795-4d3835e2d160" />
-```
+<img width="1100" height="713" alt="data model" src="https://github.com/user-attachments/assets/fcee9a4e-9b49-48ab-9751-f14e351c1c60" />
 
 ---
 
